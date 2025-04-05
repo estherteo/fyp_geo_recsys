@@ -56,7 +56,7 @@ There are 2 options to evaluate the models - either score the models based on th
 2. Run all cells for `BaselineResults.ipynb`.
 
 #### WideDeep
-1. In the folder that you ahve downloaded `estieeee/yelp2018_models` to, locate `WideDeepResults.ipynb`.
+1. In the folder that you have downloaded `estieeee/yelp2018_models` to, locate `WideDeepResults.ipynb`.
 2. Run all cells for `WideDeepResults.ipynb`.
 
 ### Score trained models
