@@ -22,12 +22,12 @@
 ## Train Baselines
 There are two options -  training from scratch or loading from huggingface repo.
 ### Train from Scratch
-1. In `model/baslines/baseline_train.py`, set the corresponding file paths in `_config`. Namely, set `train_ds_fpath` to the filepath of `train.parquet`, `val_ds_fpath` to the filepath of `val.parquet` and `test_ds_fpath` to the filepath of `test.parquet`. Also, set the value of key `dataset_metadata_fpath` in `_config` to the filepath of `dataset_metadata.pkl`.
-2. In `model/baslines/baseline_train.py`, set the `preds_outpath` in the function `generate_predictions()` to a directory of your choice. Make sure it exists!
-3. In `model/baslines/baseline_train.py`, set the `pred_df_fpath` in the function `get_metrics()` to the same directory as `pred_df_fpath` of `generate_predictions()`. Additionally, set `true_df_fpath` of `get_metrics()` to the filepath of `test.parquet` as generated in the pre-processing step.
-4. Run the `model/baslines/baseline_train.py` script using:
+1. In `model/baselines/baseline_train.py`, set the corresponding file paths in `_config`. Namely, set `train_ds_fpath` to the filepath of `train.parquet`, `val_ds_fpath` to the filepath of `val.parquet` and `test_ds_fpath` to the filepath of `test.parquet`. Also, set the value of key `dataset_metadata_fpath` in `_config` to the filepath of `dataset_metadata.pkl`.
+2. In `model/baselines/baseline_train.py`, set the `preds_outpath` in the function `generate_predictions()` to a directory of your choice. Make sure it exists!
+3. In `model/baselines/baseline_train.py`, set the `pred_df_fpath` in the function `get_metrics()` to the same directory as `pred_df_fpath` of `generate_predictions()`. Additionally, set `true_df_fpath` of `get_metrics()` to the filepath of `test.parquet` as generated in the pre-processing step.
+4. Run the `model/baselines/baseline_train.py` script using:
    ```Python
-   python  model/baslines/baseline_train.py
+   python  model/baselines/baseline_train.py
    ```
 ### Load from Huggingface Repo
 1. Download `estieeee/yelp2018_baseline_models` from [huggingface](https://huggingface.co/estieeee/yelp2018_baseline_models)
