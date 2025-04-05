@@ -219,4 +219,4 @@ print('preds:', preds)
 trainer.save(path="./model_weights", save_state_dict=True)
 
 # Save Preds
-np.save("/root/preds.npy", preds)
+np.save("./preds.npy", preds)
