@@ -52,6 +52,3 @@ def get_metrics(pred_df_fpath: str, true_df_fpath: str):
     print(f"Precision@10: {prec}")
     print(f"Recall@10: {recall}")
     print(f"NDCG@10: {ndcg}")
-
-if __name__ == "__main__":
-    get_metrics(pred_df_fpath="/root/data/mlp_predictions.parquet", true_df_fpath="/root/data/yelp_reduced_test.parquet")
