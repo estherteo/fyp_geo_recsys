@@ -1,0 +1,15 @@
+basemap
+basemap-data-hires
+scikit-learn
+pandas
+wandb>=0.12.10
+pyarrow
+huggingface_hub
+hf_transfer
+recommenders
+geopy
+imageio
+folium
+plotly
+networkx
+tqdm
