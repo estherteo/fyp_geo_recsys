@@ -73,7 +73,7 @@ To further reproducibility of our results, as much as possible, we have uploaded
 | Resource               | Link                                                                                   | Notes                                                |
 |------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------|
 | Raw Dataset            | [estieeee/yelp2018_raw](https://huggingface.co/datasets/estieeee/yelp2018_raw)           | Contains the original, unmodified Yelp 2018 data along with the EDA notebook used to pre-process the data. |
-| Pre-processed Dataset  | [estieeee/yelp2018_raw](https://huggingface.co/datasets/estieeee/yelp2018_raw)           | Cleaned and pre-processed version of the raw dataset that were used for training.|
+| Pre-processed Dataset  | [estieeee/yelp2018_processed](https://huggingface.co/datasets/estieeee/yelp2018_processed)           | Cleaned and pre-processed version of the raw dataset that were used for training.|
 | Baseline Models        | [estieeee/yelp2018_baseline_models](https://huggingface.co/estieeee/yelp2018_baseline_models) | Standard baseline model weights along with their predictions.   |
 | WideDeep Models        | [estieeee/yelp2018_models](https://huggingface.co/estieeee/yelp2018_models)              | Wide and Deep models (with and without geo-relevant features) weights and their predictions.      |
 
