@@ -65,6 +65,8 @@ There are 2 options to evaluate the models - either score the models based on th
 #### WideDeep
 1. Set the `predictions_fpath` and `test_dataset_fpath` of the `load_results()` function in `WideDeepResults.ipynb` to the predictions filepath (generated in the training step) as well as the `test.parquet` filepath (respectively).
 
+<br>
+
 # Reproducibility Note
 To further reproducibility of our results, as much as possible, we have uploaded all relevant artifacts of the project. In particular, both the raw and pre-processed dataset files have been uploaded to huggingface. Additionally, model weights along with their generated predictions have also been uploaded to huggingface, as were the functions we used to score the models. Please refer to the following table for the full list of huggingface repos:
 
