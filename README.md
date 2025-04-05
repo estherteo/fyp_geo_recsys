@@ -76,5 +76,5 @@ To further reproducibility of our results, as much as possible, we have uploaded
 | WideDeep Models        | [estieeee/yelp2018_models](https://huggingface.co/estieeee/yelp2018_models)              | Wide and Deep models (with and without geo-relevant features) weights and their predictions.      |
 
 To aid in reproducibility, the setup steps must be strictly followed. This means using the exact docker image as stated in step 1 of the setup section, and running the `setup.sh` script as stated in step 2 of the setup section. 
-However, there are some caveats to reproducibility. Results are only fully reproducible when evaluation and scoring are carried out from the unaltered `BaselineResults.ipynb` and `WideDeepResults.ipynb` using the predictions downloaded from the huggingface repos listed in the above table.
+However, there are some caveats to reproducibility. Results are only fully reproducible when evaluation and scoring are carried out from the unaltered `BaselineResults.ipynb` and `WideDeepResults.ipynb` using the predictions downloaded from the huggingface repos listed in the above table. If model training is carried out and/or predictions are regenerated, slight deviations from our reported results are to be expected, due to the randomness inherent in any deep learning model training.
 
